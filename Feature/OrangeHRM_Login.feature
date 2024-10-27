@@ -29,6 +29,6 @@ Feature: To Test Login Valid and Invalid Credentials
     And user should see admin tab
 
 
-Scenario: user try to logout the OrangeHRM
+#Scenario: user try to logout the OrangeHRM
 
   

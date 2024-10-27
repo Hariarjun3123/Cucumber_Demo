@@ -13,9 +13,9 @@ public class AbstractPageStepDefinition {
 	protected static WebDriver getDriver() {
 		if (driver == null)
 		{
-			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
-			WebDriverManager.chromedriver().setup();
+//			WebDriverManager.firefoxdriver().setup();
+//			driver = new FirefoxDriver();
+//			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}
